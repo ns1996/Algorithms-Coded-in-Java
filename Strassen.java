@@ -38,7 +38,7 @@ class Strassen
 			int s6[][]=add(b11,b22);
 			int s7[][]=sub(a12,a22);
 			int s8[][]=add(b21,b22);
-			int s9[][]=sub(a11,a21);
+			int s9[][]=sub(a21,a11);
 			int s10[][]=add(b11,b12);
 			
 			int p1[][]=multiply(a11,s1);
